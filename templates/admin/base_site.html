@@ -1,0 +1,6 @@
+{% extends "admin/base_site.html" %}
+
+{% block userlinks %}
+    <a href="/api/tarefas/">Ver Tarefas</a> /
+    {{ block.super }}
+{% endblock %}
